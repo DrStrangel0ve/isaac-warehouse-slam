@@ -4,7 +4,7 @@ An Isaac Sim robotics portfolio project where a JetBot-style differential-drive 
 
 The core autonomy stack is pure Python and simulator-independent, so it can be tested quickly offline. The same mission logic then runs in Isaac Sim with a live warehouse scene, RGB/depth camera, RTX LiDAR prim, IMU/contact sensor bridges, a movable crate, and a goal zone.
 
-![Offline SLAM map](artifacts/offline_slam_map.png)
+![Isaac Warehouse SLAM + RL overview](artifacts/portfolio_hero.png)
 
 ## Why This Is Robotics/AI-Relevant
 
@@ -25,6 +25,16 @@ The core autonomy stack is pure Python and simulator-independent, so it can be t
 | Test coverage | Unit tests cover grid mapping, scan matching, planning, RL, and the offline sim loop |
 
 ![RL training curve](artifacts/rl_training_curve.png)
+
+## Visual Tour
+
+The storyboard below is generated from the deterministic offline mission. It shows the same high-level autonomy sequence used by the Isaac runner: start in the warehouse, acquire the crate, then switch into the learned local push mode.
+
+![Warehouse storyboard](artifacts/warehouse_storyboard.png)
+
+The compact map artifact is useful for quick validation, while the hero image above is meant for a portfolio scan.
+
+![Offline SLAM map](artifacts/offline_slam_map.png)
 
 ## Quickstart
 
@@ -47,6 +57,7 @@ Regenerate the RL policy and training curve:
 ```powershell
 python scripts\train_rl_push_policy.py --episodes 300 --eval-episodes 30 --seed 7 --max-steps 80
 python scripts\render_rl_curve.py
+python scripts\render_portfolio_images.py
 ```
 
 Check whether local/Kaggle compute is available:

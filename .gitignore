@@ -14,5 +14,7 @@ artifacts/*
 !artifacts/rl_push_q_table.json
 !artifacts/isaac_final_map.png
 !artifacts/isaac_telemetry.csv
+!artifacts/portfolio_hero.png
+!artifacts/warehouse_storyboard.png
 data/*.usd
 data/*.npy

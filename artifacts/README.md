@@ -11,5 +11,7 @@ These files are intentionally tracked because they let a reviewer understand the
 - `rl_training_metrics.json` - held-out greedy policy evaluation metrics.
 - `isaac_final_map.png` - final Isaac Sim map artifact from a simulator smoke run.
 - `isaac_telemetry.csv` - telemetry from the Isaac Sim smoke run.
+- `portfolio_hero.png` - visual README hero combining rollout, map, learning curve, and metrics.
+- `warehouse_storyboard.png` - top-down mission storyboard from setup to learned crate push.
 
 Local-only files such as `compute_status.json` and transient maps such as `isaac_map_step_*.png` are ignored by default. Regenerate maps with `scripts/run_isaac_warehouse_slam.py --save-map-every`.
