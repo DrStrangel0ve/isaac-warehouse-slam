@@ -1,0 +1,13 @@
+{
+  "mode": "rl_push_crate",
+  "success": true,
+  "pose_error_m": 0.0457,
+  "crate_goal_error_m": 0.3901,
+  "explored_fraction": 0.2669,
+  "accepted_scan_matches": 0,
+  "steps_recorded": 7,
+  "min_interaction_steps": 40,
+  "odom_linear_scale": 1.05,
+  "odom_angular_scale": 1.02,
+  "rl_policy": "artifacts\\rl_push_q_table.json"
+}

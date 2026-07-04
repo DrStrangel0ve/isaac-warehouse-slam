@@ -1,0 +1,9 @@
+{
+  "episodes": 30,
+  "success_rate": 0.9667,
+  "mean_steps": 17.87,
+  "mean_reward": 14.2,
+  "mean_final_crate_goal_error_m": 0.4308,
+  "training_episodes": 300,
+  "q_states": 157
+}

@@ -1,0 +1,8 @@
+step,mode,estimated_x,estimated_y,true_x,true_y,crate_x,crate_y,explored_fraction,detections,scan_match_accepted,scan_match_score
+0,explore,-4.250,-2.850,-4.250,-2.850,-3.200,-1.950,0.1728,1,False,0.0000
+10,explore,-4.220,-2.813,-4.221,-2.814,-3.200,-1.950,0.2276,1,False,3.5935
+20,explore,-4.270,-2.763,-4.268,-2.766,-3.200,-1.950,0.2337,0,False,3.9268
+30,explore,-4.395,-2.714,-4.385,-2.715,-3.200,-1.950,0.2376,0,False,3.8653
+40,approach_crate,-4.390,-2.608,-4.378,-2.613,-3.200,-1.950,0.2414,1,False,3.8658
+50,rl_approach_crate,-4.066,-2.272,-4.066,-2.297,-3.200,-1.950,0.2517,1,False,3.8245
+60,rl_push_crate,-3.807,-2.062,-3.818,-2.098,-3.150,-1.924,0.2604,1,False,3.8021
